@@ -5,12 +5,10 @@ toggle.addEventListener('click', () => {
 
   // getting the css variable
   const color1 = 
-  console.log("🚀 ~ file: logic.js ~ line 8 ~ toggle.addEventListener ~ color1", color1)
   getComputedStyle(document.documentElement).getPropertyValue(
     '--color1'
   );
   const color2 =
-  console.log("🚀 ~ file: logic.js ~ line 13 ~ toggle.addEventListener ~ color2", color2)
   getComputedStyle(document.documentElement).getPropertyValue(
     '--color2'
   );
@@ -18,4 +16,6 @@ toggle.addEventListener('click', () => {
   // switching the css variables
   stylesheet.setProperty('--color1', color2);
   stylesheet.setProperty('--color2', color1);
+
 });
+console.log("🚀 ~ file: logic.js ~ line 8 ~ toggle.addEventListener ~ color1")
