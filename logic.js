@@ -8,6 +8,7 @@ toggle.addEventListener('click', () => {
   getComputedStyle(document.documentElement).getPropertyValue(
     '--color1'
   );
+  console.log("🚀 ~ file: logic.js ~ line 8 ~ toggle.addEventListener ~ color1")
   const color2 =
   getComputedStyle(document.documentElement).getPropertyValue(
     '--color2'
